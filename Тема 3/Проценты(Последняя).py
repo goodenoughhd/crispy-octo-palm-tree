@@ -1,0 +1,9 @@
+P=int(input())
+X=int(input())
+Y=int(input())
+a=X*P/100
+b=Y*P/10000
+sp=a+b
+ss=sp+X+Y/100
+ss=int(ss*100)/100
+print(ss)
