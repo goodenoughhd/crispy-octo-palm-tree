@@ -3,14 +3,12 @@ class Triangle:
         self.A = A
         self.B = B
         self.C = C 
-
-    def add(self, number):
-        A = self.A + number.A 
-        B = self.B + number.B
-        C = self.C + number.C 
-        return A+B+C
+        
+    def Per(self):
+        self.Perimeter = self.A + self.B + self.C
+        return self.Perimeter
         
 
 t1 = Triangle(7,40.2,5) 
-perimeter = (t1.add(t1))/2 
-print("Triangle perimeter is", perimeter)      
+P  = t1.Per()
+print("Triangle perimeter is", P)      
