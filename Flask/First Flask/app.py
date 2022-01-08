@@ -31,7 +31,7 @@ def index():
   if "file_urls" not in session:
     session['file_urls'] = []
   # list to hold our uploaded image urls
-    file_urls = session['file_urls']
+  file_urls = session['file_urls']
 
   if request.method == 'POST':
     file_obj = request.files
